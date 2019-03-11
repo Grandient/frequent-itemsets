@@ -3,11 +3,7 @@ A Python implementation of the Apriori/PCY algorithm. Works with Python 3.6 and 
 
 The apriori algorithm uncovers hidden structures in categorical data. The classical example is a database containing purchases from a supermarket. Every purchase has a number of items associated with it. We would like to uncover association rules such as {bread, eggs} -> {bacon} from the data. This is the goal of association rule learning, and the Apriori algorithm is arguably the most famous algorithm for this problem.
 
-## description
-This repository contains five python scripts.<br/>
-  It uses the retail dataset from: (http://fimi.ua.ac.be/data/retail.dat)<br/>
-  The dependencies for these scripts is matplotlib and numpy.<br/>
-  Each implementation runs the algorithm and graphs it after.<br/>
+This repository contains five python scripts. It uses the retail dataset from: (http://fimi.ua.ac.be/data/retail.dat). The dependencies for these scripts is matplotlib and numpy. Each implementation runs the algorithm and graphs it after.<br/>
 
 ## files
  - The first is apriori.py. This is an implementation of the apriori algortihm.<br/>
