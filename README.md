@@ -1,6 +1,10 @@
 # frequent-itemsets
+A Python implementation of the Apriori algorithm. Works with Python 3.6 and 3.7.
+
+The apriori algorithm uncovers hidden structures in categorical data. The classical example is a database containing purchases from a supermarket. Every purchase has a number of items associated with it. We would like to uncover association rules such as {bread, eggs} -> {bacon} from the data. This is the goal of association rule learning, and the Apriori algorithm is arguably the most famous algorithm for this problem. This repository contains an efficient, well-tested implementation of the apriori algorithm as descriped in the original paper by Agrawal et al, published in 1994.
 
 This repository contains five python scripts.<br/>
+
 It uses the retail dataset from: (http://fimi.ua.ac.be/data/retail.dat)<br/>
 The dependencies for these scripts is matplotlib and numpy.<br/>
 Each implementation runs the algorithm and graphs it after.<br/>
